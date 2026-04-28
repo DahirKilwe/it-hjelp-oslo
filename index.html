@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT-hjelp Oslo | Rask PC- og nettverkshjelp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">IT-hjelp Oslo</div>
+    <nav>
+      <a href="#tjenester">Tjenester</a>
+      <a href="#hvordan">Hvordan fungerer det?</a>
+      <a href="#kontakt">Kontakt</a>
+      <a href="/login.html">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="badge">Gratis og uforpliktende forespørsel</p>
+        <h1>Få rask IT-hjelp i Oslo</h1>
+        <p class="lead">
+          Har du problemer med PC, WiFi, printer, Microsoft 365 eller Teams?
+          Send inn behovet ditt, så kobler vi deg med riktig IT-hjelp.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="#kontakt">Få hjelp nå</a>
+          <a class="btn secondary" href="#tjenester">Se tjenester</a>
+        </div>
+
+        <div class="trust">
+          <span>✓ Lokale IT-hjelpere</span>
+          <span>✓ Svar innen 24 timer</span>
+          <span>✓ Ingen binding</span>
+        </div>
+      </div>
+
+      <div class="hero-card" id="kontakt">
+        <h2>Send forespørsel</h2>
+        <p>Beskriv problemet kort, så tar vi kontakt.</p>
+
+        <form id="leadForm">
+          <label>Navn</label>
+          <input type="text" id="navn" placeholder="Ditt navn" required />
+
+          <label>Telefon</label>
+          <input type="tel" id="telefon" placeholder="Telefonnummer" required />
+
+          <label>E-post</label>
+          <input type="email" id="epost" placeholder="E-postadresse" />
+
+          <label>Hva trenger du hjelp med?</label>
+          <textarea id="behov" placeholder="F.eks. treg PC, WiFi fungerer ikke, Teams problem..." required></textarea>
+
+          <button type="submit">Send forespørsel</button>
+          <p id="message"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="tjenester">
+      <h2>Hva kan du få hjelp med?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>PC-hjelp</h3>
+          <p>Treg PC, installasjon, oppdateringer, feil og generell support.</p>
+        </div>
+        <div class="card">
+          <h3>WiFi og nettverk</h3>
+          <p>Problemer med internett, ruter, dekning eller nettverk hjemme/kontor.</p>
+        </div>
+        <div class="card">
+          <h3>Printer og utstyr</h3>
+          <p>Oppsett av skriver, skanner, skjerm, kamera og annet IT-utstyr.</p>
+        </div>
+        <div class="card">
+          <h3>Microsoft 365 / Teams</h3>
+          <p>Hjelp med Teams, Outlook, OneDrive, brukere og enkel opplæring.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how" id="hvordan">
+      <h2>Hvordan fungerer det?</h2>
+      <div class="steps">
+        <div>
+          <span>1</span>
+          <h3>Send inn behov</h3>
+          <p>Fyll ut skjemaet med navn, telefon og hva du trenger hjelp med.</p>
+        </div>
+        <div>
+          <span>2</span>
+          <h3>Vi vurderer saken</h3>
+          <p>Vi ser hvilken type IT-hjelp som passer best for deg.</p>
+        </div>
+        <div>
+          <span>3</span>
+          <h3>Du blir kontaktet</h3>
+          <p>En relevant IT-leverandør tar kontakt med deg for videre hjelp.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section business">
+      <h2>For IT-bedrifter</h2>
+      <p>
+        Driver du IT-support i Oslo og ønsker flere kunder?
+        Vi kan sende deg relevante kundehenvendelser innen PC-hjelp, nettverk og Microsoft 365.
+      </p>
+      <a class="btn primary" href="mailto:kilwe501@hotmail.com?subject=Ønsker leads fra IT-hjelp Oslo">Kontakt oss</a>
+    </section>
+
+    <section class="section admin-info">
+      <h2>Kundene lagres automatisk</h2>
+      <p>Når kunden sender skjema, lagres henvendelsen og du kan se den i admin-panelet.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 IT-hjelp Oslo. Alle rettigheter reservert.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

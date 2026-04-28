@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="no">
+<head><meta charset="UTF-8"><title>Admin</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topbar"><div class="logo">IT-hjelp Oslo Admin</div><nav><a href="/">Forside</a><a href="#" id="logoutBtn">Logg ut</a></nav></header>
+<main class="admin-page">
+<section class="admin-title"><h1>Kundeliste</h1><p>Alle kunder som har sendt skjema.</p></section>
+<section class="admin-table-wrap">
+<table class="admin-table">
+<thead><tr><th>ID</th><th>Navn</th><th>Telefon</th><th>E-post</th><th>Behov</th><th>Dato</th></tr></thead>
+<tbody id="kundeListe"></tbody>
+</table>
+<p id="adminMessage"></p>
+</section>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>
